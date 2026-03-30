@@ -5,6 +5,7 @@ It includes multiple sections such as Home, About, Projects, and Contact, allowi
 The website features a clean user interface, dark-themed design, and interactive elements to enhance user experience.
 
 **Technologies Used**
+
 HTML5 - Semantic structure and layout
 CSS3 - Styling, animations, responsive design
 JavaScript - Interactivity and DOM manipulation
@@ -12,6 +13,7 @@ Google Fonts - Typography
 Git & GitHub - Version control
 
 **Setup Instructions**
+
 1.Clone the repository:
  git clone https://github.com/yourusername/portfolio.git
 2.Navigate into the project folder:
