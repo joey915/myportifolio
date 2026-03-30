@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="Zvinakiso.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>MyPortfolio</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="myprojects.html">Projects</a></li>
+            <li><a href="contactme.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Contact Me</h2>
+
+    <form id="contactForm">
+    <input type="text" name="name" required placeholder="Your Name">
+    <input type="email" name="email" required placeholder="Your Email">
+    <textarea name="message" required placeholder="Ask Questions"></textarea>
+
+    <button type="submit">Submit Question</button>
+</form>
+
+<!--respond to user submission-->
+    <p id="successMsg" style="display:none; color: lightgreen;">
+        ✅ Message sent successfully!
+    </p>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // stop actual submit
+
+        // simulate sending
+        document.getElementById("successMsg").style.display = "block";
+
+        // clear form
+        this.reset();
+});
+</script>
+
+
+        <div class="contact-links">
+            <p>Email: <a href="mailto:matusojm246@gmail.com">matusojm246@gmail.com</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/joel-matuso-1b23a4384/">LinkedIn</a> |
+                <a href="https://github.com/repos">GitHub</a> |
+                <a href="https://wa.me/+263772112112" target="_blank">WhatsApp</a>
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+     <p>&copy; Joel Matuso || Harare Institute Of Technology</p>
+</footer>
+
+</body>
+</html>
