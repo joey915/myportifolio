@@ -15,7 +15,7 @@ Git & GitHub - Version control
 **Setup Instructions**
 
 1.Clone the repository:
- git clone https://github.com/yourusername/portfolio.git
+ git clone https://github.com/joey915/portfolio.git
 2.Navigate into the project folder:
  cd portfolio
 
@@ -29,4 +29,4 @@ Git & GitHub - Version control
 
 **Live Demo Link**
 
-https://joey915.github.io
+(https://joey915.github.io/myportifolio/)
